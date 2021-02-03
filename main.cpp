@@ -12,5 +12,5 @@ int main()
 //--
 void printName()
 {
-    cout<<"Mark Robert Mahoney"<<endl;
+    cout<<"Mark R. Mahoney"<<endl;
 }
