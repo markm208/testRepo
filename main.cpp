@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void printName();
+void printName(int year);
 
 int main()
 {
@@ -10,7 +10,9 @@ int main()
     return 0;
 }
 //--
-void printName()
+void printName(int year)
 {
     cout<<"Mark Mahoney"<<endl;
+    int age = year - 1973;
+    cout<<"You will be "<<age<<" years old in "<<year<<endl;
 }
